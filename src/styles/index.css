@@ -10,3 +10,54 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+main{
+    border: 0px solid red;
+    height: 100vh;
+}
+
+.p-box{
+    border: 0px solid black; 
+    width: 15px;
+    height: 180px;
+    margin: 0px auto;
+    background-color: black;
+}
+
+.light-box{
+    border: 1px solid black;
+    width: 180px;
+    margin: 0px auto;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.light-box div{
+    border: 0px solid black;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.light-on{
+    box-shadow: 0px 0px 80px 15px rgb(235, 229, 229);
+    animation: glow .5s linear infinite alternate;
+}
+
+.btn-primary{
+    margin-top: 10px;
+}
